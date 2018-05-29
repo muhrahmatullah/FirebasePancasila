@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "423488546246",
+    "firebase_url": "https://fir-pancasila.firebaseio.com",
+    "project_id": "fir-pancasila",
+    "storage_bucket": "fir-pancasila.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423488546246:android:cab04a76590f6704",
+        "android_client_info": {
+          "package_name": "com.rahmat.app.firebasepancasila"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423488546246-cpt2beoai80usr08tp3nbfr6p8k627f8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rahmat.app.firebasepancasila",
+            "certificate_hash": "53221c66491aab985ba9b3605ddb29973a876b04"
+          }
+        },
+        {
+          "client_id": "423488546246-tk612837vrfs7gugjhq8kf1jl4qfcv8f.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "423488546246-tk612837vrfs7gugjhq8kf1jl4qfcv8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGvpRX1KU3jLS_9tu-EjFAPe_karC1G80"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423488546246-tk612837vrfs7gugjhq8kf1jl4qfcv8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

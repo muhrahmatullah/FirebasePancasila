@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="6dp"
         android:gravity="center">
         <TextView
             android:layout_width="wrap_content"
@@ -25,16 +26,36 @@
             android:textSize="16sp"
             tools:text="User Status"
             android:id="@+id/dispUserStatus"/>
-        <Button
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="22dp"
-            android:layout_marginLeft="22dp"
-            android:text="Verify email"
-            style="@style/Base.Widget.AppCompat.Button.Colored"
-            android:id="@+id/btnVerify"/>
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verify email"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:id="@+id/btnVerify"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LogOut"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:id="@+id/btnLogOut"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="add Data"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:id="@+id/btnSend"/>
+        </LinearLayout>
     </LinearLayout>
 
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/studentlist">
 
+    </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

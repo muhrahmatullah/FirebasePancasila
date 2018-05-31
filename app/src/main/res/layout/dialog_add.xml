@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginRight="22dp"
+    android:layout_marginLeft="22dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/stu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:inputType="textPersonName"
+        android:hint="Student Name"
+        android:scrollbars="vertical" />
+
+    <EditText
+        android:id="@+id/stu_major"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:gravity="top"
+        android:hint="Major"
+        android:scrollbars="vertical" />
+
+    <EditText
+        android:id="@+id/stu_univ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:gravity="top"
+        android:hint="University"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
